@@ -1,0 +1,142 @@
+/* Styling dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333;
+    font-weight: bold; /* Teks utama menjadi tebal */
+}
+
+header, footer {
+    background-color: #5C4033; /* Coklat yang lebih gelap untuk header/footer */
+    color: white;
+    padding: 10px 5%;
+}
+
+section {
+    padding: 40px 5%;
+    border-bottom: 2px solid #000; /* Garis hitam pemisah */
+}
+
+/* --- Latar Belakang Penanda Sub-bagian (h2) --- */
+section h2 {
+    background-color: #f0f0f0; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: -10px; 
+    display: inline-block; 
+    color: #5C4033; 
+}
+
+/* --- Styling Navigasi Mendatar --- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title {
+    font-size: 2.5em;
+    margin: 0;
+    align-self: center; 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    margin: 0;
+}
+nav ul li {
+    margin-right: 20px; 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* --- Styling Tombol Utama (CTA Button) --- */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A0522D; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* --- Styling Konten Dinamis (Gambar + Deskripsi) --- */
+
+/* Kontainer yang menyembunyikan gambar dan teks sekaligus secara default */
+.toggle-container {
+    display: none; 
+}
+
+/* Ukuran dan bentuk gambar (sedang dan membulat) */
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; 
+    border-radius: 8px; /* Sudut membulat */
+    display: block;
+    margin: 10px auto; 
+}
+
+/* --- Styling Bagian Tokoh Utama (#tokoh) --- */
+.tokoh-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.panji, .sekartaji {
+    width: 30%; 
+    text-align: center;
+}
+
+/* --- Styling Bagian Nilai Luhur Baru (#nilai-luhur) --- */
+#nilai-luhur ul {
+     list-style-type: disc;
+     margin-left: 20px;
+     padding-top: 10px;
+}
+
+#nilai-luhur li {
+    margin-bottom: 10px;
+}
+
+/* --- Styling Galeri Wayang Panji Nusantara (#galeri) --- */
+.galeri-grid {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.galeri-grid figure {
+    background-color: #fff;
+    margin: 0; 
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 250px; 
+    border-radius: 8px;
+}
+
+.galeri-grid figcaption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* --- Styling Tombol Deskripsi (Coklat) --- */
+.toggle-desc-btn {
+    display: block;
+    margin: 10px auto; /* Memusatkan tombol */
+    padding: 8px 15px;
+    background-color: #8B4513; /* Warna Coklat */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

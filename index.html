@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayang Panji – Kisah Cinta Panji Asmarabangun & Sekartaji</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo-title">Wayang Panji</h1>
+            <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#sinopsis">Kisah Singkat</a></li>
+                <li><a href="#tokoh">Tokoh Utama</a></li>
+                <li><a href="#nilai-luhur">Nilai Luhur</a></li> 
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Warisan Budaya Nusantara</h2>
+            <h1>Kisah Abadi Panji Asmarabangun & Sekartaji</h1>
+            <p>Sebuah wiracarita klasik tentang perjalanan cinta sejati, kesetiaan, dan penemuan jati diri yang melintasi Jawa hingga Bali.</p>
+            
+            <a href="#sinopsis" class="cta-button">Mulai Membaca Kisah</a>
+        </div>
+    </section>
+
+    <section id="sinopsis">
+        <h2>Sinopsis Kisah Cinta Panji</h2>
+        <p>Kisah ini berpusat pada dua kekasih sejati yang ditakdirkan bersatu: Raden Panji Asmarabangun dari Kerajaan Jenggala dan Dewi Sekartaji (Candra Kirana) dari Kerajaan Kediri. Mereka telah dijodohkan sejak kecil, namun takdir memisahkan mereka sebelum pernikahan dilangsungkan.</p>
+        <p>Panji yang berani memutuskan untuk mengembara dan menyamar dengan berbagai nama (seperti Panji Semirang atau Panji Inu Kertapati) demi mencari tunangannya. Sementara itu, Sekartaji, yang menghilang setelah serangan di kerajaan, juga menyamar demi menjaga kehormatannya.</p>
+        <p>Perjalanan ini adalah simbol pencarian spiritual dan kesetiaan abadi. Setelah serangkaian rintangan, pertempuran melawan kejahatan, dan petunjuk misterius, Panji dan Sekartaji akhirnya dipertemukan kembali dan bersatu, menandai era kemakmuran dan keadilan.</p>
+    </section>
+
+    <section id="tokoh">
+        <h2>Dua Insan Pilihan</h2>
+        
+        <div class="tokoh-container">
+            <div class="panji">
+                <h3>Raden Panji Asmarabangun</h3>
+                 <!-- Gambar dan teks dalam satu kontainer yang tersembunyi -->
+                <div class="toggle-container" id="tokoh-toggle1">
+                    <img src="wayangpanji.jpg" alt="Tokoh Wayang Panji Asmarabangun">
+                    <p>Pangeran Jenggala yang melambangkan keberanian, ketampanan, dan kesatriaan. Ia adalah tokoh yang paling sering disamarkan, menunjukkan kerendahan hati dan kecerdasannya dalam menghadapi musuh dan mencari cinta sejati.</p>
+                </div>
+                <button class="toggle-desc-btn" onclick="toggleContent('tokoh-toggle1', this)">Tampilkan Detail</button>
+            </div> 
+            
+            <div class="sekartaji">
+                <h3>Dewi Sekartaji (Candra Kirana)</h3>
+                 <!-- Gambar dan teks dalam satu kontainer yang tersembunyi -->
+                 <div class="toggle-container" id="tokoh-toggle2">
+                    <img src="sekartajidepan.jpg" alt="Tokoh Wayang Dewi Sekartaji">
+                    <p>Putri Kediri yang anggun, cerdas, dan memiliki kesetiaan luar biasa. Dalam penyamarannya, ia sering menunjukkan kekuatan karakter dan kecakapan dalam ilmu pengetahuan dan bela diri, membuktikan bahwa ia adalah pasangan yang sepadan bagi Panji.</p>
+                </div>
+                <button class="toggle-desc-btn" onclick="toggleContent('tokoh-toggle2', this)">Tampilkan Detail</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="nilai-luhur">
+        <h2>Nilai Luhur dan Subtema</h2>
+        <p>Kisah Panji tidak hanya tentang cinta, tetapi juga mengandung ajaran filosofis dan moral yang mendalam, menjadikannya warisan budaya yang kaya:</p>
+        <ul>
+            <li><strong>Pencarian Jati Diri (Spiritualitas):</strong> Penyamaran dan pengembaraan Panji dan Sekartaji melambangkan perjalanan spiritual manusia dalam menemukan esensi diri dan takdirnya di dunia.</li>
+            <li><strong>Kepemimpinan dan Keadilan:</strong> Kembalinya Panji dan Sekartaji ke tahta mereka mengembalikan tatanan kerajaan, mengajarkan pentingnya pemimpin yang arif dan adil untuk menciptakan kemakmuran.</li>
+            <li><strong>Toleransi Budaya Nusantara:</strong> Cerita Panji yang tersebar luas dari Jawa, Bali, hingga Thailand dan Kamboja, menunjukkan adaptabilitas budaya dan mengajarkan nilai toleransi serta kemampuan untuk hidup berdampingan secara harmonis lintas budaya.</li>
+            <li><strong>Ketabahan dan Kegigihan:</strong> Para tokoh menunjukkan semangat pantang menyerah dalam menghadapi cobaan dan peperangan, mengajarkan pentingnya ketabahan dalam mencapai tujuan hidup.</li>
+        </ul>
+    </section>
+    
+    <section id="galeri">
+        <h2>Galeri Wayang Panji Nusantara</h2>
+        <div class="galeri-grid">
+            
+            <figure>
+                <figcaption>Panji Asmarabangun (Gaya Klasik)</figcaption>
+                 <!-- Gambar dan teks dalam satu kontainer yang tersembunyi -->
+                 <div class="toggle-container" id="galeri-toggle1">
+                    <img src="wayangpanjikhasjatim.jpg" alt="Wayang Panji Gaya Klasik Jawa Timur">
+                    <p>Panji Asmarabangun adalah tokoh sentral dalam Siklus Cerita Panji, lambang kesatria Jawa Timur yang melambangkan kelembutan, kesetiaan, dan kewibawaan, digambarkan dalam gaya klasik (seperti di wayang beber, topeng Panji, lukisan dan motif batik), seringkali dengan wajah tenang dan berwibawa, mencerminkan kisah cinta epik dengan Dewi Sekartaji/Candrakirana dari Kerajaan Jenggala dan Panjalu/Kediri, serta menjadi ikon kebudayaan Jawa yang kaya akan nilai-nilai luhur dan spiritualitas.</p>
+                </div>
+                <button class="toggle-desc-btn" onclick="toggleContent('galeri-toggle1', this)">Tampilkan Deskripsi</button>
+            </figure> 
+            
+            <figure>
+                <figcaption>Dewi Sekartaji</figcaption>
+                 <!-- Gambar dan teks dalam satu kontainer yang tersembunyi -->
+                 <div class="toggle-container" id="galeri-toggle2">
+                    <img src="dewisekartaji.jpg" alt="Wayang Dewi Sekartaji">
+                    <p>Dewi Sekartaji (atau Candra Kirana) adalah tokoh legenda Jawa Timur, putri Raja Kediri yang cantik dan setia, terkenal dalam Kisah Panji, menikah dengan Panji Asmarabangun (Raden Inu Kertapati), melambangkan kesetiaan cinta, keberanian, dan kebaikan, serta menjadi bagian penting dalam warisan budaya Jawa Timur melalui berbagai pementasan seni dan situs sejarah seperti Petilasan Janti</p>
+                </div>
+                <button class="toggle-desc-btn" onclick="toggleContent('galeri-toggle2', this)">Tampilkan Deskripsi</button>
+            </figure>
+
+            <figure>
+                <figcaption>Tokoh Panji Saat Mengembara</figcaption>
+                 <!-- Gambar dan teks dalam satu kontainer yang tersembunyi -->
+                 <div class="toggle-container" id="galeri-toggle3">
+                    <img src="panjipenyamaran.jpg" alt="Wayang Panji dalam Penyamaran">
+                    <p>tokoh Panji (Raden Inu Kertapati) sering kali menyamar dan dikenal dengan various nama lain seperti Panji Asmarabangun atau Jaka Sumilir, menjalani petualangan mencari kekasihnya, Dewi Sekartaji, di berbagai tempat, menghadapi rintangan, fitnah, dan peperangan, seringkali dibantu atau ditemani tokoh pendukung seperti Panji Brajanata atau Lembu Amijaya, hingga akhirnya bersatu kembali.</p>
+                </div>
+                <button class="toggle-desc-btn" onclick="toggleContent('galeri-toggle3', this)">Tampilkan Deskripsi</button>
+            </figure>
+            
+        </div>
+    </section>
+
+    <footer id="tentang">
+        <p>Wayang Panji - Kisah Cinta Abadi. <a href="#">Baca Lebih Lanjut tentang Sumber Kisah</a>.</p>
+        <p>&copy; 2025 Koleksi Wayang Panji. Hak Cipta Dilindungi.</p>
+        <p>diciptakan oleh kelompok 3 SMAN 5 TARUNA BRAWIJAYA</p>
+    </footer>
+
+    <!-- Skrip JavaScript -->
+    <script>
+        function toggleContent(containerId, buttonElement) {
+            var container = document.getElementById(containerId);
+
+            if (container.style.display === "none" || container.style.display === "") {
+                container.style.display = "block";
+                buttonElement.textContent = buttonElement.textContent.replace('Tampilkan', 'Sembunyikan');
+            } else {
+                container.style.display = "none";
+                buttonElement.textContent = buttonElement.textContent.replace('Sembunyikan', 'Tampilkan');
+            }
+        }
+    </script>
+</body>
+</html>
